@@ -1,9 +1,9 @@
-@import url("https://fonts.google.com/specimen/Poppins?query=poppins&preview.size=64&preview.layout=row");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i");
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'sans-serif','poppins';
 }
 body{
     min-height: 100vh;
@@ -36,7 +36,6 @@ body{
     height: 3px;
     width: 27px;
     border-radius: 8px;
-    background-color: rgb(57, 71, 116);
 }
 .container form{
     position: relative;
@@ -54,7 +53,7 @@ body{
     font-size: 16px;
     font-weight: 500;
     margin: 6px 0;
-    color: #333;
+    color: rgb(2, 1, 1);
     
 }
 .container form .fields{
