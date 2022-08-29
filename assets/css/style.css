@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #31b3b3;
+  color: #000000;
   text-decoration: none;
 }
 
 a:hover {
-  color: #2eec09;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -204,7 +204,7 @@ div .logo img {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: rgb(175, 43, 43);
+  background: rgb(0, 0, 0);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
